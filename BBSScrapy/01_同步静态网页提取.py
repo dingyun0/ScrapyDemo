@@ -1,7 +1,7 @@
 from typing import List
 import requests
 from bs4 import BeautifulSoup
-from common import NodeContent,NodeContentDetail,NodePushComment
+from common1 import NodeContent,NodeContentDetail,NodePushComment
 FIRST_N_PAGE=10 # 爬取前10页
 BASE_HOST="https://www.ptt.cc"  # 改回https
 HEADERS={
